@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto con Javascript</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link id="theme" rel="stylesheet" href="./css/green.css">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- JQuery UI -->
+        <link rel="stylesheet" href="./js/jquery-ui-1.12.1/jquery-ui.min.css">
+        <link rel="stylesheet" href="./js/jquery-ui-1.12.1/jquery-ui.structure.min.css">
+        <link rel="stylesheet" href="./js/jquery-ui-1.12.1/jquery-ui.theme.min.css">
+        <script  type="text/javascript" src="./js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+        <!-- mis Scripts -->
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div id="selector-theme">
+        <div id="green">
+
+        </div>
+        <div id="red"></div>
+        <div id="blue"></div>
+    </div>
+    <section id="global">
+        <!-- Cabecera -->
+        <header>
+            <div id="logo">
+               <h1> PROYECTO JS</h1>
+            </div>
+            <div class="clearfix"></div>
+            <nav id="menu">
+                <ul >
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="about.html">Sobre Mi</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                                        
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Contenido -->
+        <section id="content">
+            <div id="box">
+               <!-- Acordeon -->
+               <h2>Sobre Mi</h2>
+               <div id="acordeon">
+                   <h3>Quienes Somos?</h3>
+                   <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repudiandae cumque itaque, ipsum dolorem deleniti amet reprehenderit rerum! 
+                            Rem cum necessitatibus explicabo sed minima debitis doloribus nulla ullam. Officia, error.</p>
+                   </div>
+               
+                	<h3>Nuestros Servicios</h3>
+                   <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repudiandae cumque itaque, ipsum dolorem deleniti amet reprehenderit rerum! 
+                            Rem cum necessitatibus explicabo sed minima debitis doloribus nulla ullam. Officia, error.</p>
+                   </div>
+                
+                    <h3>Nuestros Clientes</h3>
+                   <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repudiandae cumque itaque, ipsum dolorem deleniti amet reprehenderit rerum! 
+                            Rem cum necessitatibus explicabo sed minima debitis doloribus nulla ullam. Officia, error.</p>
+                   </div>
+               </div>
+            </div>
+            <aside id="sidebar">
+                <div id="about">
+                    <h4><span>Quien Soy?</span></h4>
+                    <img src="./img/caracol.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Consequuntur tempora nesciunt, aperiam maxime, 
+                       </p>
+                </div>
+                <div id="login">
+                    <h4><span>Identificate</span></h4>
+                    <form action="#">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="form_name">
+
+                        <label for="email">Email</label>
+                        <input type="password" name="email" id="form_email">
+
+                        <label for="password">Contrasena</label>
+                        <input type="password" name="password" id="">
+
+                        <input type="submit" value="Registrate">
+                    </form>
+                </div>
+            </aside>
+
+            <div class="clearfix"></div>
+        </section>
+    </section>
+    <footer>
+        Curso de JS By BanquiDev &copy;
+        <a href="#" class="subir">Ir Arriba</a>
+    </footer>
+</body>
+</html>
